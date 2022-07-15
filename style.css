@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box; 
+    outline: none ; 
+    margin: 0px; 
+    padding: 0px;
+}
+div {max-width: 1320px;}
+body {
+    font-family:'Open Sans', sans-serif;
+    background-color: white;
+}
+nav {
+    background-color: #F39447;
+    width: 100%;
+    height: 150px;
+    position: fixed;
+}
+a {
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-decoration: none;
+    ;
+}
+#contenedor {
+    display: flex;
+    justify-content: center;
+}
+#barra {
+    width: 640px;
+    display: flex;
+    justify-content: space-around;
+}
+li {list-style-type: none;
+    padding-top: 21px;}
+#cont1 {
+    display: flex;
+    justify-content: space-between;
+}
+header {
+    background-color: rgba(0, 0, 0, 0.5);
+    background-image: url(img/fondo-header.jpg);
+    background-blend-mode: color;
+    background-repeat: space;
+    color: rgb(255, 255, 255);
+    padding-top: 172px;
+    width: 100%;
+    height: 640px;
+    background-position: 0px -360px;
+}
+#p1 {
+    padding-top: 21px;
+    margin-bottom: 40px;
+    max-width: 680px;
+}
+#p2 {
+    padding-top: 21px;
+    margin-bottom: 21px;
+}
+#quienessomos {
+    display: flex;
+    flex-direction: column;
+}
+#colorsito {
+    color: black;
+    display:initial;
+    background-color: white;
+    border-color: #F39447;
+    border-style: solid;
+    margin-top: 12px;
+    margin-left: 34px;
+}
+footer {background-color:#F39447;
+display: flex;
+justify-content: space-between;}
+#flexbox {
+    display: flex;
+    justify-content: space-between;}
+#historia {
+display: flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+#menu {display: flex;
+    flex-direction: column-reverse;
+}
+#clr {background-color:white;
+}
+#imagensita {margin-top: 12px;}
